@@ -1,0 +1,5 @@
+- install visual studio code
+- (ctrl + p  and type "> theme" ) theme dark+ (default)
+- install extentions git lens
+- install extentions material icon theme
+- install extentions Svelte for VS Code
