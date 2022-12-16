@@ -17,10 +17,16 @@ Next Video 24:53  (with update sveleteKit version 1.0) https://www.youtube.com/w
 
 reference : 
 https://svelte.dev/
+
 https://svelte.dev/blog/announcing-sveltekit-1.0
+
 https://kit.svelte.dev/
+
 https://www.udemy.com/course/sveltejs-the-complete-guide
+
 https://www.youtube.com/watch?v=n48j6Yc2zWE
+
 https://www.youtube.com/watch?v=EQy-AYhZIlE
+
 https://www.youtube.com/watch?v=eVFcGA-15LA&ab_channel=JoyofCode
 
