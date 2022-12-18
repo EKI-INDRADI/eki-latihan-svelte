@@ -11,16 +11,56 @@ but update tutorial pattern to (SvelteKit Version 1.0) https://www.youtube.com/w
 svelete update pattern info (SvelteKit Is Never Going To Be The Same) https://www.youtube.com/watch?v=eVFcGA-15LA&ab_channel=JoyofCode
 
 
+//------------- INSTALL MONGODB AUTOMATION
+
+- https://github.com/EKI-INDRADI/eki-latihan-vm-alpine-docker-portable (install VM + forward port)
+
+- https://github.com/EKI-INDRADI/eki-automation-install-docker (ubuntu 20.04)
+
+
+
+- https://github.com/EKI-INDRADI/eki-automation-install-mongodb-single (ubuntu 20.04)
+
+or
+
+- https://github.com/EKI-INDRADI/eki-automation-install-mongodb-replicaset (ubuntu 20.04)
+
+or
+
+- https://github.com/EKI-INDRADI/eki-automation-install-mongodb-cluster-vpc-aws (ubuntu 20.04)
+
+
+//------------- MONGODB AUTOMATION
+
+
+//------------- UPDATE BACKEND USING NESTJS
+- MAIN API (NESTJS FASTIFY + MONGODB) : https://github.com/EKI-INDRADI/eki-latihan-nestjs-fastify-mongodb
+
+reason : backend progressive framework + best performance backend nodejs (claim 2x performance expressjs) + auto generate swagger + auto validation
+
+
+- API FILE UPLOAD PORTABLE (NESTJS EXPRESS + SQLite) : https://github.com/EKI-INDRADI/eki-latihan-nestjs-sqlite-portable-file-upload
+
+reason : backend progressive framework + portable + easy backup + auto generate swagger + auto validation
+//------------- /UPDATE BACKEND USING NESTJS
+
+
 
 Next Video 24:53  (with update sveleteKit version 1.0) https://www.youtube.com/watch?v=n48j6Yc2zWE
 
 
 reference : 
 https://svelte.dev/
+
 https://svelte.dev/blog/announcing-sveltekit-1.0
+
 https://kit.svelte.dev/
+
 https://www.udemy.com/course/sveltejs-the-complete-guide
+
 https://www.youtube.com/watch?v=n48j6Yc2zWE
+
 https://www.youtube.com/watch?v=EQy-AYhZIlE
+
 https://www.youtube.com/watch?v=eVFcGA-15LA&ab_channel=JoyofCode
 
