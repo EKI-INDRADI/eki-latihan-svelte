@@ -35,12 +35,12 @@ or
 
 //------------- UPDATE BACKEND USING NESTJS
 
-- MAIN API (NESTJS FASTIFY + MONGODB) : https://github.com/EKI-INDRADI/eki-latihan-nestjs-fastify-mongodb
+- MAIN API (NESTJS FASTIFY + MONGODB) : https://github.com/EKI-INDRADI/eki-latihan-nestjs-fastify-mongodb/tree/20221218-001-FASTIFY-FIX-CORS-N-ENV
 
 reason : backend progressive framework + best performance backend nodejs (claim 2x performance expressjs) + auto generate swagger + auto validation
 
 
-- API FILE UPLOAD PORTABLE (NESTJS EXPRESS + SQLite) : https://github.com/EKI-INDRADI/eki-latihan-nestjs-sqlite-portable-file-upload
+- API FILE UPLOAD PORTABLE (NESTJS EXPRESS + SQLite) : https://github.com/EKI-INDRADI/eki-latihan-nestjs-sqlite-portable-file-upload/tree/20221218-001
 
 reason : backend progressive framework + portable + easy backup + auto generate swagger + auto validation
 
