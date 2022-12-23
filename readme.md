@@ -1,80 +1,38 @@
-# EKI RND NOTE LAST UPDATE 20221216
+# create-svelte
 
-PATTERN SVELETE UPDATE LIST
-- DEPRECATED - Svelte Without SvelteKit (using Sapper.js), reference : https://www.udemy.com/course/sveltejs-the-complete-guide
-- DEPRECATED - Svelte With SvelteKit old version, reference : https://www.youtube.com/watch?v=n48j6Yc2zWE
-- NEW RELEASE - Svelete With SvelteKit Version 1.0, reference : https://www.youtube.com/watch?v=EQy-AYhZIlE  (update page route pattern , load pattern, etc)
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
+## Creating a project
 
-this repo target using tutorial (SvelteKit old version) https://www.youtube.com/watch?v=n48j6Yc2zWE 
-but update tutorial pattern to (SvelteKit Version 1.0) https://www.youtube.com/watch?v=EQy-AYhZIlE
-svelete update pattern info (SvelteKit Is Never Going To Be The Same) https://www.youtube.com/watch?v=eVFcGA-15LA&ab_channel=JoyofCode
+If you're seeing this, you've probably already done this step. Congrats!
 
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-//------------- INSTALL MONGODB AUTOMATION
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
-- https://github.com/EKI-INDRADI/eki-latihan-vm-alpine-docker-portable (install VM + forward port)
+## Developing
 
-- https://github.com/EKI-INDRADI/eki-automation-install-docker (ubuntu 20.04)
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
+```bash
+npm run dev
 
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-- https://github.com/EKI-INDRADI/eki-automation-install-mongodb-single (ubuntu 20.04)
+## Building
 
-or
+To create a production version of your app:
 
-- https://github.com/EKI-INDRADI/eki-automation-install-mongodb-replicaset (ubuntu 20.04)
+```bash
+npm run build
+```
 
-or
+You can preview the production build with `npm run preview`.
 
-- https://github.com/EKI-INDRADI/eki-automation-install-mongodb-cluster-vpc-aws (ubuntu 20.04)
-
-
-//------------- MONGODB AUTOMATION
-
-
-//------------- UPDATE BACKEND USING NESTJS
-
-- MAIN API (NESTJS FASTIFY + MONGODB) : https://github.com/EKI-INDRADI/eki-latihan-nestjs-fastify-mongodb/tree/20221218-001-FASTIFY-FIX-CORS-N-ENV
-
-reason : backend progressive framework + best performance backend nodejs (claim 2x performance expressjs) + auto generate swagger + auto validation
-
-
-- API FILE UPLOAD PORTABLE (NESTJS EXPRESS + SQLite) : https://github.com/EKI-INDRADI/eki-latihan-nestjs-sqlite-portable-file-upload/tree/20221218-001
-
-reason : backend progressive framework + portable + easy backup + auto generate swagger + auto validation
-
-//------------- /UPDATE BACKEND USING NESTJS
-
-
-
-next video 00:55:31 Route Matching   (with update sveleteKit version 1.0) https://www.youtube.com/watch?v=n48j6Yc2zWE
-
-
-next video 00:55:31 Route Matching [pause]
-
-Protect Routes via Handle Hook in SvelteKit https://www.youtube.com/watch?v=K1Tya6ovVOI [Route Matching fix by Handle Hook svelteKit 1.0] [done]
-
-
-
-
-
-
-reference : 
-https://svelte.dev/
-
-https://svelte.dev/blog/announcing-sveltekit-1.0
-
-https://kit.svelte.dev/
-
-https://www.udemy.com/course/sveltejs-the-complete-guide
-
-https://www.youtube.com/watch?v=n48j6Yc2zWE
-
-https://www.youtube.com/watch?v=EQy-AYhZIlE
-
-https://www.youtube.com/watch?v=eVFcGA-15LA&ab_channel=JoyofCode
-
-https://www.youtube.com/watch?v=K1Tya6ovVOI (thanks to Huntabyte - handle routes)
-
-https://github.com/huntabyte/sveltekit-protected-routes (thanks to Huntabyte - handle routes)
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
