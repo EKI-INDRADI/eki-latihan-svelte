@@ -51,6 +51,15 @@ reason : backend progressive framework + portable + easy backup + auto generate 
 next video 00:55:31 Route Matching   (with update sveleteKit version 1.0) https://www.youtube.com/watch?v=n48j6Yc2zWE
 
 
+next video 00:55:31 Route Matching [pause]
+
+Protect Routes via Handle Hook in SvelteKit https://www.youtube.com/watch?v=K1Tya6ovVOI [Route Matching fix by Handle Hook svelteKit 1.0] [done]
+
+
+
+
+
+
 reference : 
 https://svelte.dev/
 
@@ -66,3 +75,6 @@ https://www.youtube.com/watch?v=EQy-AYhZIlE
 
 https://www.youtube.com/watch?v=eVFcGA-15LA&ab_channel=JoyofCode
 
+https://www.youtube.com/watch?v=K1Tya6ovVOI (thanks to Huntabyte - handle routes)
+
+https://github.com/huntabyte/sveltekit-protected-routes (thanks to Huntabyte - handle routes)
