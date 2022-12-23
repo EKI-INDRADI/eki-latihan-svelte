@@ -12,7 +12,7 @@ svelete update pattern info (SvelteKit Is Never Going To Be The Same) https://ww
 
 
 
-Next Video 24:53  (with update sveleteKit version 1.0) https://www.youtube.com/watch?v=n48j6Yc2zWE
+Next Video (with update sveleteKit version 1.0) https://www.youtube.com/watch?v=n48j6Yc2zWE
 
 
 reference : 
