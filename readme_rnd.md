@@ -55,7 +55,7 @@ next video 00:55:31 Route Matching [pause]
 
 Protect Routes via Handle Hook in SvelteKit https://www.youtube.com/watch?v=K1Tya6ovVOI [Route Matching fix by Handle Hook svelteKit 1.0] [done]
 
-
+next video https://www.youtube.com/watch?v=K1Tya6ovVOI finishing handle hook [INPROGGRESS]
 
 
 
