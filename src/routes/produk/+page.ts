@@ -1,3 +1,6 @@
+//<!---- ".page.ts / .page.js = GET DATA / LOAD / API CALL / DEFINE DATA SOURCE , ETC" -->
+
+
 // function yang pertama kali di load sebelum load content  
 // kalo di angular namnya contructor atau bs juga form_load
 
@@ -5,42 +8,23 @@ import axios from 'axios';
 /**
  * @param {any} page
  */
-export async function load(page : any) {
-    // let getRecipesurl = 'http://127.0.0.1:3000/produk?limit=10'
-    // // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
-    // let getRecipesres = await fetch(getRecipesurl, {
-    //     method: 'GET', // *GET, POST, PUT, DELETE, etc.
-    //     // mode: 'cors', // no-cors, *cors, same-origin
-    //     // cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
-    //     // credentials: 'same-origin', // include, *same-origin, omit
-    //     headers: {
-    //         'Content-Type': 'application/json',
-    //         Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjAyMjEyMTYwNzI3MDc4LCJ1c2VyX3BheWxvYWQiOnsiX2lkIjoiNjM5YzVmN2Y2OGE5NDIwOTJlYTQ1ZmRmIiwicGFzc3dvcmQiOiIkMmIkMTAkSy5sWEE4d28vVWczVGoyRlhNbURoLjMzczY4OVNpOGVNNnQ1QWxwc3liUXFJWHJ1aDRINXEiLCJ1c2VybmFtZSI6ImVraXRlc3RpbmciLCJlbWFpbCI6ImVraXRlc3RpbmdAbWFpbC5jb20iLCJuYW1hX3VzZXIiOiJla2kgdGVzdGluZyIsInVwZGF0ZV9hdCI6IjIwMjItMTItMTZUMTI6MDc6MjcuMDc4WiIsImNyZWF0ZV9hdCI6IjIwMjItMTItMTZUMTI6MDc6MjcuMDc4WiIsImlkIjoyMDIyMTIxNjA3MjcwNzgsIl9fdiI6MH0sImlhdCI6MTY3MTMzOTMwMCwiZXhwIjoxNjcxMzgyNTAwfQ.djvdC_fcKFOqcjdgUQBvR6cKJTiC0pprJ7SF9lB0Spo'
-    //     },
-    //     // redirect: 'follow', // manual, *follow, error
-    //     // referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-    //     // body: JSON.stringify({})
-    // }).catch(console.error)
 
 
 
-    // if (getRecipesres.ok) {
-    //     return {
-    //          recipes: getRecipesResults
-    //     }
-    // }
 
-    // let getRecipesResults = []
-    // try {
-    //     if (getRecipesres) {
-    //         getRecipesResults = await getRecipesres.json()
-    //         getRecipesResults = getRecipesResults.results
-    //     }
-    // } catch (error) {
-    //     console.log("getRecipesResults", error)
-    // }
-    // console.log("getRecipesResults" ,getRecipesResults)
+// export const load = async ({ fetch }) => {
+//     const productRes = await fetch('https://dunmyjson.con/products?limit=10')
+//     Const productData = await productRes.json()
+//     const products = productData.products
 
+//     return {
+//         products: products
+//     }
+// }
+
+
+
+export async function load(page: any) {
 
 
 
@@ -50,8 +34,8 @@ export async function load(page : any) {
     let VITE_MAIN_API_URL_WITH_PORT = import.meta.env.VITE_MAIN_API_URL_WITH_PORT
     let VITE_STATIC_TOKEN = import.meta.env.VITE_STATIC_TOKEN
 
-//   console.log(import.meta.env) 
-//   supaya kepanggil ENV harus di awalin VITE_
+    //   console.log(import.meta.env) 
+    //   supaya kepanggil ENV harus di awalin VITE_
 
     let set_skip = 0
     let set_limit = 10
@@ -59,7 +43,7 @@ export async function load(page : any) {
     let url_parameter = `${VITE_MAIN_API_URL_WITH_PORT}/produk?skip=${set_skip}&limit=${set_limit}`
 
 
-   
+
     let result = null
     let AxiosParams = {
         method: 'get',
@@ -73,7 +57,7 @@ export async function load(page : any) {
 
     let result_data = null
     let result_status = null
-    let product_res_json : any = {}
+    let product_res_json: any = {}
     product_res_json.statusCode = 404
     product_res_json.message = 'unkown error'
     try {
@@ -99,7 +83,7 @@ export async function load(page : any) {
     //------------------ USING AXIOS
 
 
-    let all_response : any= {}
+    let all_response: any = {}
     if (product_res_json.statusCode >= 200 && product_res_json.statusCode <= 400) {
 
         all_response.product_res_json = product_res_json
